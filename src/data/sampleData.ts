@@ -1,0 +1,48 @@
+import { Event } from '../types';
+
+export const sampleEvents: Event[] = [
+  {
+    id: '1',
+    title: 'Annual Business Conference',
+    description: 'Join us for our flagship business conference featuring industry experts, networking opportunities, and insights into the latest market trends.',
+    date: '2025-05-15',
+    location: 'Grand Hotel, New York',
+    capacity: 200,
+    registrationCount: 78,
+    imageUrl: 'https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    createdAt: new Date('2024-01-15'),
+  },
+  {
+    id: '2',
+    title: 'Tech Meetup',
+    description: 'A casual gathering for tech enthusiasts to discuss emerging technologies, share projects, and connect with like-minded professionals.',
+    date: '2025-04-22',
+    location: 'Innovation Hub, San Francisco',
+    capacity: 50,
+    registrationCount: 42,
+    imageUrl: 'https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    createdAt: new Date('2024-02-01'),
+  },
+  {
+    id: '3',
+    title: 'Marketing Workshop',
+    description: 'Hands-on workshop covering digital marketing strategies, social media optimization, and content creation techniques.',
+    date: '2025-06-10',
+    location: 'Creative Space, Chicago',
+    capacity: 30,
+    registrationCount: 12,
+    imageUrl: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    createdAt: new Date('2024-03-12'),
+  },
+  {
+    id: '4',
+    title: 'Leadership Summit',
+    description: 'An exclusive gathering for executives and leaders to discuss strategies for organizational growth and innovation.',
+    date: '2025-07-05',
+    location: 'Executive Center, Boston',
+    capacity: 100,
+    registrationCount: 25,
+    imageUrl: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    createdAt: new Date('2024-02-25'),
+  },
+];
